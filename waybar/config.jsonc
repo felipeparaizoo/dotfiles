@@ -151,7 +151,8 @@
     "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
-    "format": " {:%H:%M %a} ",
+    "format": " {:%H:%M:%S %a} ",
+    "interval": 1,
     "format-alt": " {0:%H:%M} {0:%F}",
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
