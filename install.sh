@@ -54,7 +54,7 @@ create_link "$DOTFILES_DIR/waybar"    "$HOME/.config/waybar"    || ((ERRORS++))
 create_link "$DOTFILES_DIR/alacritty" "$HOME/.config/alacritty" || ((ERRORS++))
 create_link "$DOTFILES_DIR/nvim"      "$HOME/.config/nvim"      || ((ERRORS++))
 create_link "$DOTFILES_DIR/ghostty"   "$HOME/.config/ghostty"   || ((ERRORS++))
-
+create_link "$DOTFILES_DIR/omarchy"   "$HOME/.config/omarchy"   || ((ERRORS++))
 create_link "$DOTFILES_DIR/bashrc"    "$HOME/.bashrc"           || ((ERRORS++))
 
 echo ""
