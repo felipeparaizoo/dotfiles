@@ -24,8 +24,7 @@
 ```bash
 git clone https://github.com/Fparaiz0/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-chmod +x install.sh
-./install.sh
+bash install.sh
 ```
 
 > [!NOTE]
@@ -35,8 +34,7 @@ chmod +x install.sh
 
 ```bash
 cd ~/dotfiles
-chmod +x uninstall.sh
-./uninstall.sh
+bash uninstall.sh
 ```
 
 > [!IMPORTANT]
