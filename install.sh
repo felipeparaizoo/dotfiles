@@ -56,7 +56,7 @@ create_link "$DOTFILES_DIR/nvim"      "$HOME/.config/nvim"      || ((ERRORS++))
 create_link "$DOTFILES_DIR/ghostty"   "$HOME/.config/ghostty"   || ((ERRORS++))
 create_link "$DOTFILES_DIR/bashrc"    "$HOME/.bashrc"           || ((ERRORS++))
 
-omarchy-theme-set vantablack
+omarchy-theme-set white
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
